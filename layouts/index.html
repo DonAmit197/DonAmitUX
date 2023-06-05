@@ -1,0 +1,34 @@
+{{ define "body_classes" }}page-home{{ end }} {{ define "main" }} {{ if
+.Site.Params.showAuthorOnHomepage }} {{ partial "author-large.html" . }} {{ end
+}}
+
+<div class="intro">
+  <h1>
+    {{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}
+  </h1>
+  <div class="intro-content">{{ .Content }}</div>
+</div>
+<h3>Latest Case studies</h3>
+{{ if .Site.Params.showPostsOnHomepage }} {{ range .Site.RegularPages.Limit 2 }}
+
+<div class="figure-inline-grid">
+  <div class="figure_img">
+    <img
+      src="{{ .Params.image | relURL }}"
+      alt="{{.Params.imageAltAttribute}}"
+      width="{{.Site.Params.featured_img_small}}"
+      class="above-767"
+    />
+    <img
+      src="{{ .Params.image | relURL }}"
+      alt="{{.Params.imageAltAttribute}}"
+      width="{{.Site.Data.images.mobile}}"
+      class="below-767"
+    />
+  </div>
+  <div class="post-content">
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+  </div>
+</div>
+
+{{ end }} {{end}} {{ end }}

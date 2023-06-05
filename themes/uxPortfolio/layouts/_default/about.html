@@ -1,0 +1,7 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ range .Pages.ByPublishDate.Reverse }}
+<div>
+  <p>{{ .Summary }}</p>
+</div>
+{{end}} {{end}}

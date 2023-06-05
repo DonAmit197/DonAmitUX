@@ -1,0 +1,19 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Amitabha Ghosh'
+theme = "hugo-winston-theme"
+
+
+[params]
+  google_analytics_id = ""
+  twitter_handle = "@zerostaticio"
+  showAuthorOnHomepage = true
+  showAuthorOnPosts = false
+  showPostsOnHomepage = true
+  addDot = true
+  addFrame = true
+  highlightColor = '#042A29'
+  logo_img = "images/logo.svg"
+  link_color = "#0F00B8"
+  featured_img_small = "240px"
+  featured_img_large = "900px"
