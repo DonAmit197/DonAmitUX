@@ -1,0 +1,7 @@
+<h3>Tools used:</h3>
+<ul class="content-tools-wrapper_nav">
+{{ range .Params.contentTools }}
+<li><img src=" {{ .image | relURL}} " alt="{{ .software }}"  width="30"/></li>
+    
+{{ end }}
+</ul>

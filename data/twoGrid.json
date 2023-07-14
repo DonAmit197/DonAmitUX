@@ -1,0 +1,6 @@
+[
+    { "type" : "image" , "content" : "images/capeGrace/Lofi1.jpg", "alt":"image1"},
+    { "type" : "image" , "content" : "images/capeGrace/Lofi2.jpg", "alt":"image2"},
+    { "type" : "image" , "content" : "images/capeGrace/Lofi3.jpg", "alt":"image3"},
+    { "type" : "image" , "content" : "images/capeGrace/Lofi4.jpg", "alt":"image4"}
+]

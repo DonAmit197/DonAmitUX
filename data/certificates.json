@@ -1,0 +1,22 @@
+[
+    {
+    "title": "Professional Diploma in UX Design - Glasgow Caledonian University",
+    "image": "/images/uxInstitute.jpg",
+    "link" : "https://www.credential.net/5e1090d9-3ca2-4a70-8d10-dd5cc5443f07#gs.bfq2wl"
+    },
+    {
+        "title": "User Research – Methods and Best Practices - IxDF",
+        "image": "/images/user-research-ixdf.jpg",
+        "link": "https://www.interaction-design.org/members/amitabha-ghosh/certificate/course/7b465ee5-0428-42c8-bbd6-7d295c96f802"
+    },
+    {
+        "title": "Human-Computer Interaction - HCI  - IxDF",
+        "image": "/images/hci-ixdf.jpg",
+        "link" : "https://www.interaction-design.org/members/amitabha-ghosh/certificate/course/3085fa85-2d77-454c-a812-058668932040"
+    },
+    {
+        "title": "Design for the 21st Century with Don Norman - IxDF",
+        "image": "/images/don-norman-ixdf.jpg",
+        "link" : "https://www.interaction-design.org/members/amitabha-ghosh/certificate/course/bcb9fd5d-ac88-4165-a885-ea0cd939415e"
+    }
+]

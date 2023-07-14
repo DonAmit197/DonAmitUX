@@ -9,7 +9,20 @@
   --text-color: {{ .Site.Params.textColor | default "#4e5157" }};
   --dot-color: {{ .Site.Params.dotColor | default "#03A069" }};
   --links: {{ .Site.Params.link_color | default "#0F00B8" }};
+  --heading1-small : {{  .Site.Params.heading1Small | default "42px" }};
+  --color-light : #f5f4f4;
   --margin-16px : 16px;
+  --full-width : 100%;
+  --wrapper-width : 1000px;
+  --space-0 : 0;
+  --space-1x : 4px;
+  --space-2x : 8px;
+  --space-3x : 12px;
+  --space-4x : 16px;
+  --space-8x : 32px;
+  --space-16x: 64px;
+  --space-section-b : 20px;
+  
 }
 
 $breakpoints: (
@@ -17,6 +30,8 @@ $breakpoints: (
   'medium': 992px,
   'large': 1200px,
 );
+@import 'theme-normalize';
+@import 'skeleton';
 
 @import 'normalize';
 @import 'breakpoints';
@@ -30,6 +45,14 @@ $breakpoints: (
 @import 'main-menu';
 @import 'main-menu-mobile';
 @import 'pygments/github';
+@import 'grid';
+@import 'content-role';
+@import 'content-tools';
+@import 'splide';
+@import 'caseStudyReview';
+@import 'magnificPopup';
+@import 'shortcodes';
+
 @import 'theme-modify';
 
 html, body {
@@ -55,4 +78,12 @@ body {
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
+}
+::selection{
+  
+  background-color:#d4f1e6;
+  
+}
+img::selection{
+  background-color: transparent;
 }

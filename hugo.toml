@@ -1,12 +1,13 @@
-baseURL = ''
+baseURL = 'https://amitux.co.nz/'
+#baseURL = '/'
 languageCode = 'en-us'
 title = 'Amitabha Ghosh'
 theme = "hugo-winston-theme"
 
 
 [params]
-  google_analytics_id = ""
-  twitter_handle = "@zerostaticio"
+  google_analytics_id = "G-PMT1SN49E9"
+  twitter_handle = "@Appaui1"
   showAuthorOnHomepage = true
   showAuthorOnPosts = false
   showPostsOnHomepage = true
@@ -17,3 +18,4 @@ theme = "hugo-winston-theme"
   link_color = "#0F00B8"
   featured_img_small = "240px"
   featured_img_large = "900px"
+

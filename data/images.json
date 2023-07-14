@@ -1,3 +1,4 @@
 {
-  "mobile": "320px"
+  "mobile": "640",
+  "desktop": "900"
 }

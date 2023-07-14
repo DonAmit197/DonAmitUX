@@ -1,4 +1,5 @@
-baseURL = "/"
+#baseURL = "/"
+baseURL = 'https://amitux.co.nz/'
 languageCode = "en-us"
 theme = "hugo-winston-theme"
 themesDir = "themes"
@@ -7,6 +8,7 @@ paginate = 3
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
+heading1Small = "42px"
 
 [module]
   [module.hugoVersion]
@@ -14,19 +16,20 @@ pygmentsUseClasses = true
     min = "0.55.0"
 
 [params]
-  google_analytics_id = ""
-  twitter_handle = "@zerostaticio"
+  google_analytics_id = "G-PMT1SN49E9"
+  twitter_handle = "@Appaui1"
   showAuthorOnHomepage = true
   showAuthorOnPosts = false
-  showPostsOnHomepage = false
+  showPostsOnHomepage = true
   addDot = true
   addFrame = true
-  highlightColor = '#7b16ff'
+  highlightColor = '#042A29'
   baseColor = "#ffffff"
   baseOffsetColor = "#eaeaea"
   headingColor = "#1c1b1d"
   textColor = "#4e5157"
-  dotColor = "#7b16ff"
+  dotColor = "#03A069"
+  logo_img = "images/logo.svg"
 
 # markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
 [markup]
@@ -42,8 +45,11 @@ pygmentsUseClasses = true
     name = 'Home'
     url = '/'
     weight = 1
-  [[menu.main]]
-    name = "Tags"
-    identifier = "tags"
-    weight = 300
-    url = "/tags/"
+    
+    [[menu.main]]
+    identifier = 'about'
+    name = 'About'
+    url = '/about'
+    weight = 2
+    
+  

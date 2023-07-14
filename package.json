@@ -1,0 +1,27 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "hugo server -D --gc --disableFastRender",
+    "build": "hugo --gc --cleanDestinationDir --minify",
+    "npm-check": "npm-check -u"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "is-mobile": "^4.0.0",
+    "npm-check": "^6.0.1"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "autoprefixer": "^10.4.14",
+    "enquire.js": "^2.1.6",
+    "ismobilejs": "^1.1.1",
+    "jquery": "^3.7.0",
+    "mobile-detect": "^1.4.5",
+    "postcss": "^8.4.24",
+    "postcss-cli": "^10.1.0"
+  }
+}

@@ -1,0 +1,14 @@
+{{$certificates := getJSON "data/certificates.json"}}
+{{range $index, $certificate := $certificates}}
+
+<div class="ag-columns ag-six ">
+<figure>
+  <a href="{{$certificate.link}}" title="{{$certificate.title}}" target="_blank" class="full-border-8"><img src="{{ $certificate.image | relURL }}" alt="{{$certificate.title}}"/></a>
+  <figcaption>
+    {{$certificate.title}}
+  </figcaption>
+</figure>
+
+</div>
+{{/* {{ if mod $index 2 }}<div class="u-cf"></div>{{end}} */}}
+{{end}}

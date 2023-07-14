@@ -1,0 +1,23 @@
+<!-- layouts/shortcodes/twoGrid.html -->
+<section class="two-grid-wrapper ">
+    <h3 class="">{{ .Get 0 }}</h3>
+    <div class="two-grid-container">
+        {{ $dataFile := (index .Site.Data (.Get 1)) }}
+      {{ range $dataFile }}
+      {{ $class := "cols-inline-double" }}
+      {{ if eq (len $dataFile) 1 }}
+        {{ $class = "cols-inline-single"}}
+      {{ end }}
+
+      {{ if eq .type "text" }}
+      <div class="{{ $class }}">{{ .content }}</div>
+      {{ else if eq .type "image" }}
+      <div class="cols-inline-double" ><img class="image-lightbox" src="{{ .content | relURL }}" alt="{{ .alt }}" height="450"/></div>
+      {{ end }}
+      
+    {{ end }}
+
+    </div>
+    
+
+</section>

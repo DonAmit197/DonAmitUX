@@ -1,0 +1,46 @@
+{{ define "body_classes" }}page-blog-single{{ end }}
+
+{{ define "main" }}
+  <div class="blog">
+    {{ if .Site.Params.showAuthorOnPosts }}
+      {{ partial "author.html" . }}
+    {{ end }}
+    <div class="intro">
+      <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+      <div class="reading-time">
+        <p>{{ .ReadingTime }} min read. </p>
+       
+      </div>
+      {{ if .Params.image }}
+      <img alt="{{.Params.imageAltAttribute | default "Article hero image"}}" src="{{ .Params.image | relURL }}" />
+      {{ end }}
+    </div>
+   
+    
+    {{ if .Params.contentRole }}
+    <div class="content-role-wrapper">
+      {{ partial "content-role.html" . }}
+    </div>
+      
+    {{ end }}
+    {{ if .Params.contentTools }}
+    <div class="content-tools-wrapper">
+      {{ partial "content-tools.html" . }}
+    </div>
+      
+    {{ end }}
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+    {{ if .Params.caseStudyReview }}
+    
+    <div class="user-reviews " >
+      <h2>Candid User Feedback during usability testing</h2>
+      {{ partial "case-study-reviews.html" }}
+    </div>
+      
+    {{ end }}
+  </div>
+{{ end }}
+

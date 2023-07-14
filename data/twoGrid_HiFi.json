@@ -1,0 +1,20 @@
+[
+    { "type" : "image" , "content" : "images/capeGrace/Hi-fi_front.png", "alt":"image1"},
+    { "type" : "image" , "content" : "images/capeGrace/Hi-fi_front2.png", "alt":"image2"},
+    { "type" : "image" , "content" : "images/capeGrace/Hi-fi_03.jpg", "alt":"image3"},
+    { "type" : "image" , "content" : "images/capeGrace/Hi-fi_04.jpg", "alt":"image4"},
+    { "type" : "image" , "content" : "images/capeGrace/Hi-fi_05.jpg", "alt":"image5"},
+    { "type" : "image" , "content" : "images/capeGrace/Hi-fi_06.jpg", "alt":"image6"},
+    { "type" : "image" , "content" : "images/capeGrace/Hi-fi_07.jpg", "alt":"image7"},
+    { "type" : "image" , "content" : "images/capeGrace/Hi-fi_07-1.jpg", "alt":"image8"},
+    { "type" : "image" , "content" : "images/capeGrace/Hi-fi_08.jpg", "alt":"image9"},
+    { "type" : "image" , "content" : "images/capeGrace/Hi-fi_09.jpg", "alt":"image10"},
+    { "type" : "image" , "content" : "images/capeGrace/Hi-fi_10.jpg", "alt":"image11"},
+    { "type" : "image" , "content" : "images/capeGrace/Hi-fi_11.jpg", "alt":"image12"},
+    { "type" : "image" , "content" : "images/capeGrace/Hi-fi_12.jpg", "alt":"image13"},
+    { "type" : "image" , "content" : "images/capeGrace/Hi-fi_13.jpg", "alt":"image14"},
+    { "type" : "image" , "content" : "images/capeGrace/Hi-fi_14.jpg", "alt":"image15"},
+    { "type" : "image" , "content" : "images/capeGrace/Hi-fi_15.jpg", "alt":"image16"}
+
+    
+]

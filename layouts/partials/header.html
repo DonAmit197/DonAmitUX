@@ -1,23 +1,23 @@
-<div class="header">
-  <a class="header-logo" href="{{ .Site.Home.RelPermalink }}"
-    ><img src="{{ .Site.Params.logo_img }}"
+<header class="header">
+  <a aria-label="Logo of Amitabha Ghosh" class="header-logo" href="{{ .Site.Home.RelPermalink }}"
+    ><img src="{{.Site.BaseURL}}{{ .Site.Params.logo_img }}"
   /></a>
-  <div class="menu-main">
+  <nav class="menu-main">
     <ul>
       {{ $currentPage := . }} {{ range .Site.Menus.main }} {{ $active := or
       ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main"
       .) }} {{ $active = or $active (eq (.URL | relLangURL)
       ($currentPage.RelPermalink | relLangURL)) }}
       <li class="menu-item-{{ .Name | lower }} {{ if $active }}active{{ end }}">
-        <a href="{{.URL}}">
+        <a href="{{.URL}}" tabindex="0" aria-label="Click to read more on {{.URL}}">
           {{ .Pre }}
           <span>{{ .Name }}</span>
         </a>
       </li>
       {{end}}
     </ul>
-  </div>
+  </nav>
   <div id="toggle-menu-main-mobile" class="hamburger-trigger">
     <button class="hamburger">Menu</button>
   </div>
-</div>
+</header>

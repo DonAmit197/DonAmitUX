@@ -1,51 +1,17 @@
 ---
 title: 'About'
-image: images/writer.jpeg
+image: images/about/amitabha.jpg
 url: "about"
-menu:
-  main:
-    name: "About"
-    weight: 3
+imageAltAttribute: "Banner image of Amitabha Ghosh"
+description : "About Amitabha Ghosh"
 ---
 
-## Contra vagos
+Welcome to my portfolio! I am a passionate and experienced Senior UX Researcher and Designer, dedicated to creating exceptional user experiences that solve complex problems and drive meaningful impact. With a deep understanding of human behavior and a keen eye for design, I thrive on crafting intuitive and delightful experiences that bridge the gap between users and technology.
+With a strong background in both research and design, I bring a holistic approach to my work. I believe that a solid foundation of user insights is the key to designing successful products and services. By combining qualitative and quantitative research methods, I uncover valuable insights that inform the design process, ensuring that every decision is grounded in user needs.
 
-Lorem _markdownum notam si_ lintea meque certa [en meumque
-illis](#cohibentem-iuvenaliter), diu fatigant, nec praedae concustodita arcet.
-[Paviunt castris](#nemorisque-urimur-violentus) cur errat ventis causa! Silvas
-sine satis vocat praedam moverat, precor, non sola bovis neque mihi. Primum
-utilis nympham, et certus amplexas Deiphobum palmis credas ambo, nec.
+Throughout my career, I have had the privilege of working with a diverse range of clients and industries, including e-commerce, healthcare, finance, and education. This exposure has sharpened my ability to adapt to different contexts and understand the unique challenges each industry faces. I am skilled in conducting user interviews, usability testing, persona development, information architecture, wireframing, prototyping, and iterative design.
 
-> Excidit gente, si orat suo quaeque dura Calydon nata? Pars auro post stetit
-> adfusique imis amplexus. Agmina per fabricator
-> mittere Erymanthon habetque tot.
+Collaboration is at the heart of my approach. I thrive in cross-functional teams, working closely with product managers, developers, and stakeholders to align on goals and create a shared vision. By fostering open communication and incorporating feedback at every stage, I ensure that the final product meets both user needs and business objectives.
+In addition to my professional work, I am committed to staying at the forefront of industry trends and best practices. I actively engage in continuous learning, attending conferences, participating in UX communities, and keeping up with the latest research. I am also a strong advocate for accessibility and inclusive design, believing that technology should be accessible to everyone, regardless of ability.
 
-**Cineres Nile ipsa** origine discurrunt adest Unde, et quem clausus, imo,
-virens quoque tales, potuit. Ingentes insilit corpore nutricis praebebat roganti
-licuit. Denique a vestros adulantum in bella lina parte et arte generi di igitur
-quis, digitis pedes. Cum resonant tamen, namque in anxia. Non nostri trahens
-ancora.
-
-## Ducem oculos pallor tale quoque
-
-Pectora de Hebe veste mansit nemorisque oppugnare deos, interea eo calescit
-**invita insidiae** Amymonen, semper respiciens vocato, illis! Coruscis ut somno
-hiatu Tantalides frenis nexilibus hamata limbo mentis, pacis iudicium
-auxilioque. Genus dolori, me ira hae inpediunt tellus, nascendi Boreas!
-Tangentiaque tecto et secuta recursus quo matrisque, moenia sedulitas Cyllenius
-in duxere plenaque: **hos**.
-
-1. Olim pulvere
-2. Verus ego ovantem mihi
-3. Tenuit erat semina superari
-4. Dabis natis hoc genu in quidem dumque
-
-Per tenuata [potiora](#inmeritae-discordemque-iterum) dedit caelo admota
-iniustus decipere do loca multa non parat. Ingratos his ut inde credite sensit
-sorte. Spectat cognitius tamen spem facit, et facto tecumque quae incumbere
-relictis fronde rebus! Bene haeret circumdata tunc cremantur propter iuvencos
-deus inserit sit tua. Pompa non precor procumbit inania lacrimas sacra credetis:
-Oceano, femina?
-
-Bacchantum neque. Humum ut violasse quam inmotos! Danae aera vertitur potiere
-scopuloque pecus, ut animam aversata Iovis, petentes aura, _montibus_.
+Thank you for visiting my portfolio. I invite you to explore my projects and see how my research and design expertise have helped create impactful experiences for users. If you have any questions or would like to discuss potential collaboration opportunities, please feel free to reach out. I look forward to connecting with you

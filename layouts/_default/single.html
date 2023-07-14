@@ -1,0 +1,31 @@
+{{ define "body_classes" }}page-default-single{{ end }}
+
+{{ define "main" }}
+<div class="intro">
+  <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+  {{ if .Params.image }}
+  <img alt="{{.Params.imageAltAttribute | default " Article hero image"}}" src="{{ .Params.image | relURL }}" />
+  {{ end }}
+</div>
+
+<div class="content">
+  {{ .Content }}
+</div>
+
+{{/* If About Page */}}
+{{if eq .Title "About"}}
+<section class="certifications">
+  <hr/>
+  <h2>Licenses and certificates</h2>
+  <div class="ag-container">
+    <div class="ag-row" >
+      
+      {{ partial "about-certificate.html" . }}
+    </div>
+  </div>
+</section>
+
+{{end}}
+{{/* If About Page ends */}}
+
+{{ end }}

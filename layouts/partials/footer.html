@@ -1,0 +1,13 @@
+<footer class="footer">
+  {{ if .Site.Data.social.links }}
+  <div class="footer-social">
+    {{ range .Site.Data.social.links }}
+      <span class="social-icon social-icon-{{ .name | urlize }}">
+        <a href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener">
+          <img src="{{ .image | relURL }}" width="36" height="36" alt="{{ .name }}"/>
+        </a>
+      </span>
+    {{ end }}
+  </div>
+  {{ end }}
+</footer>

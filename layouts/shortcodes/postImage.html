@@ -1,0 +1,10 @@
+<!-- layouts/shortcodes/postImage.html -->
+
+<figure class="post-figure">
+  <picture>
+    <source srcset="{{ .Get "image" | relURL }}" media = "(min-width:1024px)" />
+    <source srcset="{{ .Get "image_xs" | relURL}}" media="(max-width:991px)" />
+    <img src="{{ .Get "image" | relURL }}" alt="{{ .Get "imageAlt" }}" class="image-lightbox"/>
+  </picture>
+  <figcaption>{{ .Get "imageAlt" }}</figcaption>
+</figure>

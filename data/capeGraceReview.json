@@ -1,0 +1,17 @@
+{
+    "user1" : {
+             "name": "Pau Cui",
+             "review" : "The app's home screen is very intuitive. I was able to narrow down my search quickly using the specific search context.",
+             "image" : "images/maleAvatar.svg"
+     },
+     "user2" : {
+        "name": "Tracy",
+        "review" : "The date selection process is seamless. I didn't encounter any glitches or confusion while selecting my travel dates.",
+        "image" : "images/femaleAvatar.svg"
+   },
+   "user3" : {
+       "name": "Jason",
+       "review" : "The map search feature is very useful. It gives me a clear idea of the hotel's location relative to other landmarks.",
+       "image" : "images/maleAvatar.svg"
+  }
+}

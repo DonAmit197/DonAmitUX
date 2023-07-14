@@ -1,6 +1,6 @@
-{{ define "body_classes" }}page-home{{ end }} {{ define "main" }} {{ if
-.Site.Params.showAuthorOnHomepage }} {{ partial "author-large.html" . }} {{ end
-}}
+{{ define "body_classes" }}page-home{{ end }} {{ define "main" }} 
+{{ if .Site.Params.showAuthorOnHomepage }} {{ partial "author-large.html" . }} 
+{{ end}}
 
 <div class="intro">
   <h1>
@@ -8,27 +8,46 @@
   </h1>
   <div class="intro-content">{{ .Content }}</div>
 </div>
-<h3>Latest Case studies</h3>
-{{ if .Site.Params.showPostsOnHomepage }} {{ range .Site.RegularPages.Limit 2 }}
+<div class="row">
+  <div class="container u-full-width">
+    <h3 style="padding-left:8px;">Latest Case studies</h3>
+    {{ if .Site.Params.showPostsOnHomepage }} 
+    {{ $posts := where .Site.RegularPages "Type" "posts"}}
+    {{ range first 2 $posts }}
 
 <div class="figure-inline-grid">
-  <div class="figure_img">
-    <img
+  <div class="column two">
+  {{/*<img data-isDesktop
       src="{{ .Params.image | relURL }}"
       alt="{{.Params.imageAltAttribute}}"
-      width="{{.Site.Params.featured_img_small}}"
+      width="{{.Site.Data.images.desktop}}"
       class="above-767"
     />
-    <img
+    <img data-isMobile
       src="{{ .Params.image | relURL }}"
       alt="{{.Params.imageAltAttribute}}"
       width="{{.Site.Data.images.mobile}}"
       class="below-767"
-    />
+    />*/}}
+    <picture>
+      <source srcset="{{.Params.image | relURL}}" media = "(min-width:1024px)" />
+      <source srcset="{{.Params.image_small | relURL}}" media="(max-width:991px)" />
+      <img src="{{.Params.image | relURL}}" alt="{{.Params.imageAltAttribute}}" />
+    </picture>
   </div>
-  <div class="post-content">
-    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+  <div class="post-content column ten">
+    
+    <h2><a href="{{ .RelPermalink }}" aria-label="Read more on {{ .Title }} case study.">{{ .Title }}</a></h2>
+    <p>{{ .Params.description | safeHTML | truncate 250 }}</p>
+    <p><span>{{ .ReadingTime }} min read. | <a href="{{ .RelPermalink }}">Read more...</a></span></p>
   </div>
 </div>
 
-{{ end }} {{end}} {{ end }}
+{{ end }} 
+  </div>
+
+</div>
+
+
+{{end}} 
+{{ end }}
