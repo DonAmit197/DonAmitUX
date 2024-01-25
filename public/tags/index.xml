@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Amitabha Ghosh</title>
-    <link>https://amitux.co.nz/new-github/tags/</link>
+    <link>https://amitux.co.nz/tags/</link>
     <description>Recent content in Tags on Amitabha Ghosh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Jun 2023 00:39:51 +1200</lastBuildDate><atom:link href="https://amitux.co.nz/new-github/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jun 2023 00:39:51 +1200</lastBuildDate><atom:link href="https://amitux.co.nz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>lorem</title>
-      <link>https://amitux.co.nz/new-github/tags/lorem/</link>
+      <link>https://amitux.co.nz/tags/lorem/</link>
       <pubDate>Mon, 19 Jun 2023 00:39:51 +1200</pubDate>
       
-      <guid>https://amitux.co.nz/new-github/tags/lorem/</guid>
+      <guid>https://amitux.co.nz/tags/lorem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>writing</title>
-      <link>https://amitux.co.nz/new-github/tags/writing/</link>
+      <link>https://amitux.co.nz/tags/writing/</link>
       <pubDate>Mon, 19 Jun 2023 00:39:51 +1200</pubDate>
       
-      <guid>https://amitux.co.nz/new-github/tags/writing/</guid>
+      <guid>https://amitux.co.nz/tags/writing/</guid>
       <description></description>
     </item>
     
