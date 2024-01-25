@@ -1,4 +1,4 @@
-baseURL = 'https://amitux.co.nz/'
+baseURL = 'https://amitux.co.nz/test-git'
 #baseURL = '/'
 languageCode = 'en-us'
 title = 'Amitabha Ghosh'

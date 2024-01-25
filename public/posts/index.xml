@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Hugo Winston Theme</title>
-    <link>https://amitux.co.nz/posts/</link>
-    <description>Recent content in Projects on Hugo Winston Theme</description>
+    <title>Projects on Amitabha Ghosh</title>
+    <link>https://amitux.co.nz/test-git/posts/</link>
+    <description>Recent content in Projects on Amitabha Ghosh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://amitux.co.nz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://amitux.co.nz/test-git/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Case Study Capegrace</title>
-      <link>https://amitux.co.nz/posts/case-study-capegrace/</link>
+      <link>https://amitux.co.nz/test-git/posts/case-study-capegrace/</link>
       <pubDate>Mon, 19 Jun 2023 00:39:51 +1200</pubDate>
       
-      <guid>https://amitux.co.nz/posts/case-study-capegrace/</guid>
+      <guid>https://amitux.co.nz/test-git/posts/case-study-capegrace/</guid>
       <description>Project Synopsis During my tenure with the UX Design Institute, I embarked on a project to design a mobile application. This project was inspired by my homeland, New Zealand, a globally renowned travel destination celebrated for its breathtaking landscapes.
 This case study will delve into my user experience design process for &amp;ldquo;Cape Grace&amp;rdquo;, a hotel booking app exclusively featuring accommodations in New Zealand.
-  Cape Grace Project Synopsis  Identifying the Challenge This research project was born out of the need to address the difficulties users face when booking hotels through websites.</description>
+Cape Grace Project SynopsisIdentifying the Challenge This research project was born out of the need to address the difficulties users face when booking hotels through websites.</description>
     </item>
     
   </channel>

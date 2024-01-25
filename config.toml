@@ -1,5 +1,5 @@
 #baseURL = "/"
-baseURL = 'https://amitux.co.nz/'
+baseURL = 'https://amitux.co.nz/test-git'
 languageCode = "en-us"
 theme = "hugo-winston-theme"
 themesDir = "themes"
